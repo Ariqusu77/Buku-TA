@@ -25,6 +25,7 @@
 
 % Package lainnya
 \usepackage{changepage}
+\usepackage{amsmath}
 \usepackage{enumitem}
 \usepackage{eso-pic}
 \usepackage{txfonts} % Font times
@@ -35,12 +36,15 @@
 \usepackage{tabularx}
 \usepackage{wrapfig}
 \usepackage{float}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{amsfonts}
 
 % Definisi untuk "Hati ini sengaja dikosongkan"
 \patchcmd{\cleardoublepage}{\hbox{}}{
   \thispagestyle{empty}
   \vspace*{\fill}
-  \begin{center}\textit{[Halaman ini sengaja dikosongkan]}\end{center}
+  \begin{center}\textit{[Hati ini tuh sengaja dikosongkan]}\end{center}
   \vfill}{}{}
 
 % Pengaturan penomoran halaman
